@@ -18,4 +18,8 @@ Enter the height: 3
 
 """
 
-#write your code here 
+bonk = int(input("Enter the base: "))
+bong = int(input("Enter the height: "))
+
+for bong in range(1, bong + 1):
+  print("*" * bonk)
