@@ -39,4 +39,14 @@ fizz
 
 """
 
-# write your code here 
+melancholy = int(input("Enter a number: "))
+
+for melancholy in range(1, melancholy + 1):
+  if melancholy % 5 == 0 and melancholy % 3 == 0:
+    print("fizzbuzz")
+  elif melancholy % 5 == 0:
+    print("buzz")
+  elif melancholy % 3 == 0:
+    print("fizz")
+  else:
+    print(melancholy)
